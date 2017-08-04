@@ -18,6 +18,6 @@ Plugin.create :append_url do
       message.perma_link
     }.join("\n".freeze)
     postbox.widget_post.buffer.text = text + urls
-    #postbox.active! # これやると落ちる
+    postbox.active
   end
 end
