@@ -1,10 +1,4 @@
 Plugin.create :append_url do
-  class DonMessage < Retriever::Model
-    def perma_link
-      uri
-    end
-  end
-
   command(:append_url,
           name: _("URLを投稿欄に追加".freeze),
           condition: Proc.new { |opt|
