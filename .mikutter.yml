@@ -1,10 +1,10 @@
 ---
 slug: :mikutter_append_url
 depends:
-  mikutter: 3.6.0
+  mikutter: 3.5.0
   plugin:
   - gtk
 version: '1.0'
-author: @cobodo@mstdn.kanagu.info
+author: '@cobodo@mstdn.kanagu.info'
 name: mikutter_append_url
 description: 選択したstatusのURLを投稿欄に追加するmikutterプラグイン
