@@ -15,7 +15,7 @@ Plugin.create :append_url do
       if message.retweet? then
         message = message.retweet_ancestor
       end
-      message.perma_link
+      message.perma_link.to_s
     }.join("\n".freeze)
     postbox.widget_post.buffer.text = text + urls
     postbox.active
